@@ -9,6 +9,5 @@ public class Exer05 {
         // ser o respectivo elemento de A multiplicado por sua posição (ou
         // índice), ou seja:
         // B[i] = A[i] * i.
-        System.out.println("Hello World!");
     }
 }

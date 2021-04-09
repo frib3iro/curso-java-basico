@@ -11,15 +11,26 @@ public class Exer04 {
         // mesmo tamanho, sendo que cada elemento do vetor B deverá ser a
         // raiz quadrada do respectivo elemento de A, ou seja:
         // B[i] = sqrt(A[i]).
-        
         int[] vetorA = new int[15];
-        int[] vetorB = new int[15];
+        int[] vetorB = new int[vetorA.length];
 
         for (int i = 0; i < vetorA.length; i++) {
-            System.out.println("Digite o numero " + i + ": ");
+            System.out.print("Digite o numero " + i + ": ");
             vetorA[i] = scan.nextInt();
-            vetorB[i] = (int) Math.sqrt(vetorA[i]);
+            vetorB[i] = vetorA[i] * vetorA[i];
         }
+
+        System.out.print("Vetor A = ");
+        for (int i = 0; i < vetorA.length; i++) {
+            System.out.print(vetorA[i] + " ");
+        }
+        System.out.println();
+
+        System.out.print("Vetor B = ");
+        for (int i = 0; i < vetorB.length; i++) {
+            System.out.print(vetorB[i] + " ");
+        }
+        System.out.println();
         scan.close();
     }
 }

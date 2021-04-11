@@ -21,16 +21,19 @@ public class Exer05 {
             A[i] = scan.nextInt();
             B[i] = A[i] * i;
         }
+        
         System.out.print("Vetor A = ");
         for (int i = 0; i < A.length; i++) {
             System.out.print(A[i] + " ");
         }
+        
         System.out.println();
 
         System.out.print("Vetor B = ");
         for (int i = 0; i < B.length; i++) {
             System.out.print(B[i] + " ");
         }
+        
         System.out.println();
 
         scan.close();

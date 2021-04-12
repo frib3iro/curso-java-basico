@@ -17,7 +17,7 @@ public class Exer12 {
         for (int i = 0; i < A.length; i++) {
             System.out.print("Digite o numero " + i + ": ");
             A[i] = scan.nextInt();
-            soma = soma + A[i];
+            soma += A[i];
         }
         
         System.out.print("Vetor A = ");

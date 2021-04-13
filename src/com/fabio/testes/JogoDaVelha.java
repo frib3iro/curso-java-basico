@@ -17,8 +17,5 @@ public class JogoDaVelha {
             }
             System.out.println();
         }
-        
-        
-        scan.close();
     }
 }

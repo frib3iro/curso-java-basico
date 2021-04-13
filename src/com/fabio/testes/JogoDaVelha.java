@@ -8,12 +8,12 @@ public class JogoDaVelha {
 
         Scanner scan = new Scanner(System.in);
 
-        char[][] jogoVelha = new char[3][3];
+        char[][] jogoDaVelha = new char[3][3];
 
         // Imprimir o tabuleiro
-        for (int i = 0; i < jogoVelha.length; i++) {
-            for (int j = 0; j < jogoVelha[i].length; j++) {
-                System.out.print(jogoVelha[i][j] + " | ");
+        for (int i = 0; i < jogoDaVelha.length; i++) {
+            for (int j = 0; j < jogoDaVelha[i].length; j++) {
+                System.out.print(jogoDaVelha[i][j] + " | ");
             }
             System.out.println();
         }

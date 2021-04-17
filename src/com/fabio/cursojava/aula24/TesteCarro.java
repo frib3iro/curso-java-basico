@@ -24,5 +24,9 @@ public class TesteCarro {
         
         System.out.println(fusca.marca);
         System.out.println(fusca.modelo);
+        
+        for (int i = 0; i < 10; i++) {
+            
+        }
     }
 }

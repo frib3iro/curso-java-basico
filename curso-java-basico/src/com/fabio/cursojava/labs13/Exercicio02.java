@@ -8,7 +8,7 @@ public class Exercicio02 {
 	
 	Random rd = new Random();
 	
-	System.out.println("Hello world!");
+	System.out.println("Exercício 02");
 	
 	int[] vetorA = new int[8];
 	int[] vetorB = new int[vetorA.length];

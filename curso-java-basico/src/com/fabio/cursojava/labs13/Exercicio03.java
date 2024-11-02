@@ -3,28 +3,28 @@ package com.fabio.cursojava.labs13;
 import java.util.Random;
 
 public class Exercicio03 {
-    
+
     public static void main(String[] args) {
-	
+
 	Random rd = new Random();
-	
-	System.out.println("Hello world!");
-	
+
+	System.out.println("Exercício 03");
+
 	int[] vetorA = new int[15];
 	int[] vetorB = new int[vetorA.length];
-	
+
 	for (int i = 0; i < vetorA.length; i++) {
 	    vetorA[i] = rd.nextInt(10) + 1;
 	    vetorB[i] = vetorA[i] * vetorA[i];
 	}
-	
+
 	System.out.print("Vetor A: ");
 	for (int a : vetorA) {
 	    System.out.printf("%2d ", a);
 	}
-	
+
 	System.out.println();
-	
+
 	System.out.print("Vetor B: ");
 	for (int b : vetorB) {
 	    System.out.printf("%2d ", b);
@@ -32,7 +32,7 @@ public class Exercicio03 {
 
 	System.out.println();
     }
-    
+
 }
 
 /*

@@ -1,14 +1,14 @@
-package com.fabio.cursojava.labs13;
+package com.fabio.cursojava.aula13.labs;
 
 import java.util.Scanner;
 
-public class Exercicio07 {
+public class Exercicio08 {
 
     public static void main(String[] args) {
 
 	Scanner sc = new Scanner(System.in);
 
-	System.out.println("Exercício 07");
+	System.out.println("Exercício 08");
 
 	int[] vetorA = new int[10];
 	int[] vetorB = new int[vetorA.length];
@@ -25,7 +25,7 @@ public class Exercicio07 {
 	}
 
 	for (int i = 0; i < vetorA.length; i++) {
-	    vetorC[i] = vetorA[i] - vetorB[i];
+	    vetorC[i] = vetorA[i] * vetorB[i];
 	}
 
 	System.out.print("Vetor A: ");
@@ -56,6 +56,6 @@ public class Exercicio07 {
 
 /*
 Criar dois vetores A e B cada um com 10 elementos inteiros. 
-Construir um vetor C, onde cada elemento de C é a subtração dos respectivos 
-elementos em A e B, ou seja: C[i] = A[i] ? B[i]. 
+Construir um vetor C, onde cada elemento de C é a multiplicação dos respectivos 
+elementos em A e B, ou seja: C[i] = A[i] * B[i].  
 */

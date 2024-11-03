@@ -1,18 +1,21 @@
-package com.fabio.cursojava.labs13;
+package com.fabio.cursojava.aula13.labs;
 
+import java.util.Locale;
 import java.util.Scanner;
 
-public class Exercicio06 {
+public class Exercicio09 {
 
     public static void main(String[] args) {
 
+	Locale.setDefault(Locale.US);
+	
 	Scanner sc = new Scanner(System.in);
 
-	System.out.println("Exercício 06");
+	System.out.println("Exercício 09");
 
 	int[] vetorA = new int[10];
 	int[] vetorB = new int[vetorA.length];
-	int[] vetorC = new int[vetorA.length];
+	float[] vetorC = new float[vetorA.length];
 
 	System.out.println("Digite os valores do vetor A: ");
 	for (int i = 0; i < vetorA.length; i++) {
@@ -25,7 +28,7 @@ public class Exercicio06 {
 	}
 
 	for (int i = 0; i < vetorA.length; i++) {
-	    vetorC[i] = vetorA[i] + vetorB[i];
+	    vetorC[i] = vetorA[i] / (float) vetorB[i];
 	}
 
 	System.out.print("Vetor A: ");
@@ -43,8 +46,8 @@ public class Exercicio06 {
 	System.out.println();
 
 	System.out.print("Vetor C: ");
-	for (int c : vetorC) {
-	    System.out.printf("%2d ", c);
+	for (float c : vetorC) {
+	    System.out.printf("%.2f ", c);
 	}
 
 	System.out.println();
@@ -56,6 +59,6 @@ public class Exercicio06 {
 
 /*
 Criar dois vetores A e B cada um com 10 elementos inteiros. 
-Construir um vetor C, onde cada elemento de C é a soma dos respectivos 
-elementos em A e B, ou seja: C[i] = A[i] + B[i].   
+Construir um vetor C, onde cada elemento de C é a divisão dos respectivos 
+elementos em A e B, ou seja: C[i] = A[i] / float(B[i]).   
 */

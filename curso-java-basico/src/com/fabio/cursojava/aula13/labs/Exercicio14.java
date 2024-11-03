@@ -1,4 +1,4 @@
-package com.fabio.cursojava.labs13;
+package com.fabio.cursojava.aula13.labs;
 
 import java.util.Locale;
 import java.util.Random;

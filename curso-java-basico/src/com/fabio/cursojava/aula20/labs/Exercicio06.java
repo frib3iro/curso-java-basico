@@ -13,6 +13,7 @@ public class Exercicio06 {
 
 	// Define uma matriz para o tabuleiro
 	char[][] tabuleiro = {{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
+
 	boolean ganhou = false;
 	int jogada = 1;
 	int linhaTabuleiro = 0;
@@ -75,7 +76,6 @@ public class Exercicio06 {
 	    }
 
 	    // Verifica se ouve um ganhador
-	    // Verifica se houve um ganhador
 	    if ((tabuleiro[0][0] == sinal && tabuleiro[0][1] == sinal && tabuleiro[0][2] == sinal) // linha 1
 		    || (tabuleiro[1][0] == sinal && tabuleiro[1][1] == sinal && tabuleiro[1][2] == sinal) // linha 2
 		    || (tabuleiro[2][0] == sinal && tabuleiro[2][1] == sinal && tabuleiro[2][2] == sinal) // linha 3
@@ -98,13 +98,12 @@ public class Exercicio06 {
     }
 }
 
-
 /*
-Faça um programa para jogar o jogo da velha. O programa deve permitir que dois 
-jogadores façam uma partida do jogo da velha, usando o computador para ver o 
-tabuleiro. Cada jogador vai alternadamente informando a posição onde deseja 
-colocar a sua peça (O ou X). O programa deve impedir jogadas inválidas e 
-determinar automaticamente quando o jogo terminou e quem foi o vencedor 
-(jogador1 ou jogador2). A cada nova jogada, o programa deve atualizar a situação 
-do tabuleiro na tela.  
+Faça um programa para jogar o jogo da velha. O programa deve permitir que dois
+jogadores façam uma partida do jogo da velha, usando o computador para ver o
+tabuleiro. Cada jogador vai alternadamente informando a posição onde deseja
+colocar a sua peça (O ou X). O programa deve impedir jogadas inválidas e
+determinar automaticamente quando o jogo terminou e quem foi o vencedor
+(jogador1 ou jogador2). A cada nova jogada, o programa deve atualizar a situação
+do tabuleiro na tela.
  */
